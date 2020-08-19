@@ -1,3 +1,13 @@
+//==========================================================================//
+//																			//
+//		Biohazard19															//
+//		Copyright (c) 1995 CAPCOM Co.,Ltd. All Rights Reserved.				//
+//																			//
+//		sce_set.h 															//
+//										Programmed by (?)					//
+//																			//
+//		Reconstructed by SolidSnake11 26/01/2020
+//==========================================================================//
 
 #define		OFF 					0x00
 #define 	ON 						0x01

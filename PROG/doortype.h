@@ -3,10 +3,10 @@
 //		Biohazard19															//
 //		Copyright (c) 1995 CAPCOM Co.,Ltd. All Rights Reserved.				//
 //																			//
-//		doortype.h 													        //  
-//										Programmed by (?)				    //
+//		doortype.h 															//
+//										Programmed by (?)					//
 //																			//
-//      Reconstructed by SolidSnake11 26/01/2020
+//		Reconstructed by SolidSnake11 26/01/2020
 //==========================================================================//
 #define 	SOUKO 					0x00
 #define 	JIMUSYO 				0x01
@@ -78,10 +78,8 @@
 
 
 
-
-
-
 // TYPES
+
 //Used for one way doors
 #define 	NORMAL 					0x00 
 #define 	REVERSE 				0x01
