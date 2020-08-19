@@ -12,9 +12,9 @@
 
 
 
-#define     ID_NONE                 0        
+#define     ID_NONE                 0
 //--------------------------------------------------------------------------//
-//    WEAPONS                                                        //
+//    WEAPONS                                                               //
 //--------------------------------------------------------------------------//
 #define     ID_KNIFE                1     // KNIFE
 #define     ID_SIGPRO               2     // SIGPRO
@@ -37,9 +37,9 @@
 #define     ID_SHOTGUN_S            19    // SHOTGUN (EHNANCED)
 #define     ID_GYROJET_S            20    // MINE THROWER (EHNANCED)
 //--------------------------------------------------------------------------//
-//    ITEMS                                                        //
+//    ITEMS                                                                 //
 //--------------------------------------------------------------------------//
-#define     ID_TAMA_BULLET          21    //HANDGUN BULLETS
+#define     ID_TAMA_BULLET          21    // HANDGUN BULLETS
 #define     ID_TAMA_MAGNUM          22    // MAGNUM BULLETS
 #define     ID_TAMA_SHOTGUN         23    // SHOTGUN SHELLS
 #define     ID_TAMA_N_GRENADE       24    // BURST GRENADE ROUNDS
@@ -54,12 +54,12 @@
 #define     ID_HERB_B               34    // BLUE HERB
 #define     ID_HERB_R               35    // RED HERB
 #define     ID_HERB_GG              36    // MIXED HERB (GREEN + GREEN)
-#define     ID_HERB_GB              37    // MIXED HERB (BLUE + GREEN)
-#define     ID_HERB_GR              38    // MIXED HERB (GREEB + RED)
-#define     ID_HERB_GGG             39    // MIXED HERB (GREEN+ GREEN + GREEN)
-#define     ID_HERB_GGB             40    // MIXED HERB (GREEN+ GREEN + BLUE)
-#define     ID_HERB_GBR             41    // MIXED HERB (GREEN + BLUE + RED)
-#define     ID_H_SPRAY_BOX          42    // F AID BOX
+#define     ID_HERB_GB              37    // MIXED HERB (BLUE  + GREEN)
+#define     ID_HERB_GR              38    // MIXED HERB (GREEN + RED)
+#define     ID_HERB_GGG             39    // MIXED HERB (GREEN + GREEN + GREEN)
+#define     ID_HERB_GGB             40    // MIXED HERB (GREEN + GREEN + BLUE)
+#define     ID_HERB_GBR             41    // MIXED HERB (GREEN + BLUE  + RED)
+#define     ID_H_SPRAY_BOX          42    // F.AID BOX
 #define     ID_CRANK                43    // CRANK
 #define     ID_COIN_R               44    // RED COIN
 #define     ID_COIN_B               45    // BLUE COIN
@@ -94,18 +94,18 @@
 #define     ID_VACCINE              85    // VACCINE
 #define     ID_VACCINE_F            88    // MEDIUM BASE
 #define     ID_PART_EAGLEA          89    // EAGLE PARTS A
-#define     ID_PART_EAGLEB          90    // EAGLE PARTS A
+#define     ID_PART_EAGLEB          90    // EAGLE PARTS B
 #define     ID_PART_M37A            91    // M37 PARTS A
-#define     ID_PART_M37B            92    // EAGLE PARTS A
+#define     ID_PART_M37B            92    // M37 PARTS B
 #define     ID_CHRONOS_ANK          94    // CHRONOS CHAIN
 #define     ID_CRANK_6              95    // RUSTED CRANK
 #define     ID_KEY_CARD             96    // UMBRELLA CARD KEY
 //--------------------------------------------------------------------------//
-//    GUN POWDERS         YAKUHIN TRANSLATES TO DRUG\CHEMICAL, 
+//    GUN POWDERS       YAKUHIN TRANSLATES TO DRUG\CHEMICAL,                //
 //                      PROBABLY THEY WERE CHEMICALS BEFORE,                //
 //                      OR A REHASH OF RE2 ITEM ID'S (UNUSED CHEMICALS)     //
 //--------------------------------------------------------------------------//
-#define     ID_YAKUHIN_A            97    // GUN POWDER A 
+#define     ID_YAKUHIN_A            97    // GUN POWDER A
 #define     ID_YAKUHIN_B            98    // GUN POWDER B
 #define     ID_YAKUHIN_C            99    // GUN POWDER C
 #define     ID_YAKUHIN_AA           100   // GUN POWDER AA
@@ -121,7 +121,7 @@
 //--------------------------------------------------------------------------//
 #define     ID_TAMA_MUGEN           110   // INFINITE AMMO
 //--------------------------------------------------------------------------//
-//    KEYS                                                        //
+//    KEYS                                                                  //
 //--------------------------------------------------------------------------//
 #define     ID_TEST_TUBE            111   // WATER SAMPLE
 #define     ID_MODISK               112   // SYSTEM DISK (M.O DISK)
@@ -129,7 +129,7 @@
 #define     ID_KEY_PICK             114   // LOCKPICK
 #define     ID_KEY_SOUKO            115   // WAREHOUSE KEY
 #define     ID_KEY_TUURO            116   // SICKROOM KEY (ORIGINALLY CALLED PASSAGEWAY KEY)
-#define      ID_KEY_STARS           117   // S.T.A.R.S KEY (EMBLEM KEY)
+#define     ID_KEY_STARS            117   // S.T.A.R.S KEY (EMBLEM KEY)
 #define     ID_KEY_BEZEL            119   // CLOCK TOWER KEY (BEZEL KEY)
 #define     ID_KEY_WINDER           120   // CLOCK TOWER KEY (WINDER KEY)
 #define     ID_KEY_CHRONOS          121   // CHRONOS KEY
@@ -141,10 +141,10 @@
 #define     ID_KEY_SPECIAL          128   // BOUTIQUE KEY
 #define     ID_INK_RIBBON           129   // INK RIBBON
 //--------------------------------------------------------------------------//
-//    FILES                                                        //
+//    FILES                                                                 //
 //--------------------------------------------------------------------------//
-#define     ID_FILE0                133   // GAME INSTRUCTIONS A
-#define     ID_FILE1                134   // DARIO'S MEMO
+#define     ID_FILE00               133   // GAME INSTRUCTIONS A
+#define     ID_FILE01               134   // DARIO'S MEMO
 #define     ID_FILE02               135   // MERC'S MEMO
 #define     ID_FILE03               136   // BUSINESS FAX
 #define     ID_FILE04               137   // MARVIN'S MEMO
@@ -170,12 +170,12 @@
 #define     ID_FILE18               157   // PHOTO C
 #define     ID_FILE19               158   // PHOTO E
 #define     ID_FILE1A               159   // PHOTO D
-#define        ID_FILE1B            160   // CLOCK TOWER POSTCARD
+#define     ID_FILE1B               160   // CLOCK TOWER POSTCARD
 #define     ID_FILE1C               161   // GAME INSTRUCTIONS B
 #define     ID_FILE1D               162   // CLASSIFIED PHOTO FILE
 #define     ID_FILE1E               163   // JILL'S DIARY
 //--------------------------------------------------------------------------//
-//    MAPS                                                        //
+//    MAPS                                                                  //
 //--------------------------------------------------------------------------//
 #define     ID_MAP01                164   // UPTOWN MAP
 #define     ID_MAP02                165   // DOWNTOWN MAP
@@ -185,11 +185,11 @@
 #define     ID_MAPPOLICE            169   // POLICE STATION MAP
 #define     ID_MAPHOSPITAL          170   // HOSPITAL MAP
 //--------------------------------------------------------------------------//
-#define     ID_NOITEM               171   // NO ITEM USED FOR THE ITEM BOX
-
-
+//    OTHER                                                                 //
 //--------------------------------------------------------------------------//
-//    MAX SETS                                                        //
+#define     ID_NOITEM               171   // USED FOR EMPTY SLOTS IN THE ITEM BOX
+//--------------------------------------------------------------------------//
+//    MAX SETS                                                              //
 //--------------------------------------------------------------------------//
 #define     GMAX_ID_MUGNUM           6
 #define     GMAX_ID_N_GRENADE        6
